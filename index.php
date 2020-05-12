@@ -112,7 +112,7 @@
 								<? endif; ?>
 
 								<? if (get_post_type() === 'post'): ?>
-								<time datetime="<? echo get_the_date('c'); ?>" itemprop="datePublished">
+								<time datetime="<? echo get_the_date('c'); ?>">
 									<? echo get_the_date(); ?>
 								</time>
 								<? endif; ?>
@@ -132,16 +132,20 @@
 							<? the_excerpt(); ?>
 						<? endif; ?>
 
-						<? if ( get_the_terms($post->ID, 'category') || get_the_terms($post->ID, 'post_tag') ): ?>
 						<footer>
+							Published: 
+							<time datetime="<? echo get_the_date('c'); ?>">
+								<strong><? echo get_the_date('F j, Y, g:i a'); ?></strong>
+							</time>
+							<? if ( get_the_terms($post->ID, 'category') || get_the_terms($post->ID, 'post_tag') ): ?>
 							<div>
 								<? the_terms( $post->ID, 'category', 'Categories: ', ', ' ); ?>
 							</div>
 							<div>
 								<? the_terms( $post->ID, 'post_tag', 'Tags: ', ', ' ); ?>
 							</div>
+							<? endif; ?>
 						</footer>
-						<? endif; ?>
 					</article>
 				<? endwhile; ?>
 			<? endif; ?>
