@@ -121,7 +121,12 @@
 
 						<? if (has_post_thumbnail()): ?>
 						<figure>
-							<? the_post_thumbnail(); ?>
+							<? if (is_singular()): ?>
+								<? the_post_thumbnail('full'); ?>
+							<? else: ?>
+								<? the_post_thumbnail('large'); ?>
+							<? endif; ?>
+
 							<figcaption><? the_post_thumbnail_caption(); ?></figcaption>
 						</figure>
 						<? endif; ?>
