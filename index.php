@@ -164,8 +164,8 @@
 			<? if (
 					$pagination = get_the_posts_pagination( array(
 					'mid_size' => 2,
-					'prev_text' => __( '<span class="aria-hidden">&laquo;</span> Newer Posts' ),
-					'next_text' => __( 'Older Posts <span class="aria-hidden">&raquo;</span>' ),
+					'prev_text' => __( '<span aria-hidden="true">&laquo; </span>Newer Posts' ),
+					'next_text' => __( 'Older Posts<span aria-hidden="true"> &raquo;</span>' ),
 					'type' => 'list',
 					'before_page_number' => '<span class="screen-reader-text">Page </span>'
 					)) 
