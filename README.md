@@ -1,12 +1,14 @@
 # Minimum Viable WordPress
 
-A single-file WordPress theme. Designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it might be generally useful as a minimalist theme. Styled using lightly modified [MVP.css](https://andybrewer.github.io/mvp/).
+A minimalist single-file WordPress theme. Written with semantic and accessible HTML and styled using lightly modified [MVP.css](https://andybrewer.github.io/mvp/).
+
+This was originally designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it also works as a minimalist theme.
 
 ## Supported Features
 
 These WordPress features have been tested:
 
-- Site name, tagline and custom logos
+- Site name, tagline and custom logo
 - Navigation menus
 - Posts and pages
 - Excerpts and `<!--more-->`
@@ -15,7 +17,7 @@ These WordPress features have been tested:
 
 These should work but haven't been extensively tested:
 
-- Forms
+- Forms and form plugins
 - Block editor (Gutenberg)
 - Favicons
 
