@@ -1,8 +1,6 @@
 # Minimum Viable WordPress
 
-A single-file WordPress theme. 
-
-Designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it might be generally useful as a minimalist theme.
+A single-file WordPress theme. Designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it might be generally useful as a minimalist theme. Styled using lightly modified [MVP.css](https://andybrewer.github.io/mvp/).
 
 ## Supported Features
 
@@ -61,12 +59,13 @@ Download a copy of this repository and upload it to WordPress.
 
 ## Roadmap
 
-- Move off of [MVP.css](https://andybrewer.github.io/mvp/) to a custom stack of basic CSS.
-- Figure out how to detect 404 pages without using 404.php
+- Fully fork [MVP.css](https://andybrewer.github.io/mvp/) instead of fighting it.
+- Figure out how to detect 404 pages without using 404.php.
 
 ## Contributing
 
 This project was designed to be extremely lean. Pull requests are welcome for minor bugfixes or enhancements. For major changes or additions, please open an issue and I'd be happy to discuss!
 
 ## License
+
 [GPLv2](https://choosealicense.com/licenses/gpl-2.0/), as you do for WordPress.
