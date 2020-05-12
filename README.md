@@ -55,7 +55,7 @@ This was tested with Timber 1.x.
 
 ### As a standalone theme
 
-Download a copy of this repository and upload it to WordPress.
+Download a copy of this repository and upload it to the WordPress backend under Appearance > Themes.
 
 ## Roadmap
 
