@@ -135,6 +135,12 @@
 							<? the_content(); ?>
 						<? else: ?>
 							<? the_excerpt(); ?>
+							
+							<a href="<? echo esc_url( get_permalink() ) ?>'" rel="bookmark">
+								Continue Reading
+								<span class="screen-reader-text"> <? the_title( '<h1>', '</h1>' ); ?></span>
+								<span aria-hidden="true"> &raquo;</span>
+							</a>
 						<? endif; ?>
 
 						<footer>

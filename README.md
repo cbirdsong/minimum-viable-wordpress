@@ -11,6 +11,7 @@ These WordPress features have been tested:
 - Site name, tagline and custom logos
 - Navigation menus
 - Posts and pages
+- Excerpts and `<!--more-->`
 - Featured images (post thumbnails)
 - Tags and categories
 
