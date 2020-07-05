@@ -1,6 +1,6 @@
 # Minimum Viable WordPress
 
-A minimalist single-file WordPress theme. Written with semantic and accessible HTML and styled using lightly modified [MVP.css](https://andybrewer.github.io/mvp/).
+A minimalist single-file WordPress theme. Written with semantic and accessible HTML and styled using a modified version of [MVP.css](https://andybrewer.github.io/mvp/).
 
 This was originally designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it also works as a minimalist theme.
 
@@ -61,7 +61,7 @@ Download a copy of this repository and upload it to the WordPress backend under 
 
 ## Roadmap
 
-- Fully fork [MVP.css](https://andybrewer.github.io/mvp/) instead of fighting it.
+- Clean up fork of [MVP.css](https://andybrewer.github.io/mvp/).
 - Figure out how to detect 404 pages without using 404.php.
 
 ## Contributing
