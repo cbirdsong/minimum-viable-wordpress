@@ -16,17 +16,18 @@ These WordPress features have been tested:
 - Excerpts and `<!--more-->`
 - Featured images (post thumbnails)
 - Tags and categories
+- Block editor (Gutenberg)
 
 These should work but haven't been extensively tested:
 
 - Forms and form plugins
-- Block editor (Gutenberg)
 - Favicons
 
 It does not support:
 
-- Translation / RTL languages
 - 404 pages
+- Wide/full block alignments
+- Translation/RTL languages
 - Search
 - Authors and author pages
 - Post formats
@@ -41,14 +42,14 @@ It does not support:
 
 ### Within a Timber theme
 
-Copy the index.php file to your theme and rename it `minimum-viable-wordpress.php`, then add this chunk of code to `functions.php` file:
+Copy the index.php file to your theme and rename it `minimum-viable-wordpress.php` _(or whatever)_, then add this chunk of code to `functions.php` file:
 
 ```
 if ( ! class_exists( 'Timber' ) ) {
 	add_filter(
 		'template_include',
 		function( $template ) {
-			return get_stylesheet_directory() . '/minimum-viable-wordpress.php';
+			return get_stylesheet_directory() . '/minimum-viable-wordpress.php'; // or whatever
 		}
 	);
 	return;
