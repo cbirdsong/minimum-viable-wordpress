@@ -4,6 +4,8 @@ A minimalist single-file WordPress theme. Written with semantic and accessible H
 
 This was originally designed as a fallback in case [Timber](https://www.upstatement.com/timber/) fails to load, but it also works as a minimalist theme.
 
+[![Preview screenshot; it's got no pictures and extremely basic styling.](screenshot.png)](screenshot-for-github.png)
+
 ## Supported Features
 
 These WordPress features have been tested:
@@ -21,7 +23,7 @@ These should work but haven't been extensively tested:
 - Block editor (Gutenberg)
 - Favicons
 
-It does not support: 
+It does not support:
 
 - Translation / RTL languages
 - 404 pages
